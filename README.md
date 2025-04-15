@@ -1,1 +1,1 @@
-# TOPAS_FISPACT-activation-calculation
+# TOPAS_FISPACT activation calculation
