@@ -60,9 +60,11 @@ Remaining ~19.3 hours/day used for passive cooldown
 
 Purpose: Detailed activation profile for long-term planning
 
-Reference: [2]   G. Bailey, D. Foster, P. Kanth, M. Gilbert, The FISPACT-II user manual. https://f 
+Reference: [2] G. Bailey, D. Foster, P. Kanth, M. Gilbert, The FISPACT-II user manual. https://f 
 ispact.ukaea.uk/documentation-2/manual/, 2021. (Accessed 25 October 2024).
+
 [3] J.C. Sublet, J.W. Eastwood, J.G. Morgan, M.R. Gilbert, M. Fleming, W. Arter, 
 FISPACT-II: an advanced simulation system for activation, transmutation and 
 material modelling, NDS 139 (2017) 77–137.
+
 [4] https://fispact.ukaea.uk/wiki/Main_Page
