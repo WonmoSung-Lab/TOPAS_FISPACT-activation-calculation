@@ -1,0 +1,295 @@
+#===============================================#
+# Deuteron fluence for the entire geometry
+#===============================================#
+
+s:Sc/ExtWindowFluence_deuteron/Quantity = "Fluence"
+s:Sc/ExtWindowFluence_deuteron/Component= "ExtWindow"
+s:Sc/ExtWindowFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/ExtWindowFluence_deuteron/OutputType = "CSV"
+sv:Sc/ExtWindowFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/ExtWindowFluence_deuteron/Ebins = 161
+d:Sc/ExtWindowFluence_deuteron/EBinMin =  10000 eV
+d:Sc/ExtWindowFluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/PropellerFluence_deuteron/Quantity = "Fluence"
+s:Sc/PropellerFluence_deuteron/Component= "Propeller"
+s:Sc/PropellerFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/PropellerFluence_deuteron/OutputType = "CSV"
+sv:Sc/PropellerFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/PropellerFluence_deuteron/Ebins = 161
+d:Sc/PropellerFluence_deuteron/EBinMin =  10000 eV
+d:Sc/PropellerFluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/Collimator1Fluence_deuteron/Quantity = "Fluence"
+s:Sc/Collimator1Fluence_deuteron/Component= "Collimator1"
+s:Sc/Collimator1Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/Collimator1Fluence_deuteron/OutputType = "CSV"
+sv:Sc/Collimator1Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/Collimator1Fluence_deuteron/Ebins = 161
+d:Sc/Collimator1Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/Collimator1Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Layer1Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Layer1Fluence_deuteron/Component= "IonChamber1/Layer1"
+s:Sc/IonChamber1Layer1Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Layer1Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Layer1Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Layer1Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Layer1Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Layer1Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring1Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring1Fluence_deuteron/Component= "IonChamber1/Ring1"
+s:Sc/IonChamber1Ring1Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring1Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring1Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring1Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring1Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring1Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring2Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring2Fluence_deuteron/Component= "IonChamber1/Ring2"
+s:Sc/IonChamber1Ring2Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring2Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring2Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring2Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring2Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring2Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring3Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring3Fluence_deuteron/Component= "IonChamber1/Ring3"
+s:Sc/IonChamber1Ring3Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring3Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring3Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring3Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring3Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring3Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring4Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring4Fluence_deuteron/Component= "IonChamber1/Ring4"
+s:Sc/IonChamber1Ring4Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring4Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring4Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring4Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring4Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring4Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring5Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring5Fluence_deuteron/Component= "IonChamber1/Ring5"
+s:Sc/IonChamber1Ring5Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring5Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring5Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring5Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring5Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring5Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring6Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring6Fluence_deuteron/Component= "IonChamber1/Ring6"
+s:Sc/IonChamber1Ring6Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring6Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring6Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring6Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring6Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring6Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Ring7Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Ring7Fluence_deuteron/Component= "IonChamber1/Ring7"
+s:Sc/IonChamber1Ring7Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Ring7Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Ring7Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Ring7Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Ring7Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Ring7Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Layer2Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Layer2Fluence_deuteron/Component= "IonChamber1/Layer2"
+s:Sc/IonChamber1Layer2Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Layer2Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Layer2Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Layer2Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Layer2Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Layer2Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber1Layer3Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber1Layer3Fluence_deuteron/Component= "IonChamber1/Layer3"
+s:Sc/IonChamber1Layer3Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber1Layer3Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber1Layer3Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber1Layer3Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber1Layer3Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber1Layer3Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/Collimator2Fluence_deuteron/Quantity = "Fluence"
+s:Sc/Collimator2Fluence_deuteron/Component= "Collimator2"
+s:Sc/Collimator2Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/Collimator2Fluence_deuteron/OutputType = "CSV"
+sv:Sc/Collimator2Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/Collimator2Fluence_deuteron/Ebins = 161
+d:Sc/Collimator2Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/Collimator2Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/Collimator3Fluence_deuteron/Quantity = "Fluence"
+s:Sc/Collimator3Fluence_deuteron/Component= "Collimator3"
+s:Sc/Collimator3Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/Collimator3Fluence_deuteron/OutputType = "CSV"
+sv:Sc/Collimator3Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/Collimator3Fluence_deuteron/Ebins = 161
+d:Sc/Collimator3Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/Collimator3Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Layer1Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Layer1Fluence_deuteron/Component= "IonChamber2/Layer1"
+s:Sc/IonChamber2Layer1Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Layer1Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Layer1Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Layer1Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Layer1Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Layer1Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring1Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring1Fluence_deuteron/Component= "IonChamber2/Ring1"
+s:Sc/IonChamber2Ring1Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring1Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring1Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring1Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring1Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring1Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring2Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring2Fluence_deuteron/Component= "IonChamber2/Ring2"
+s:Sc/IonChamber2Ring2Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring2Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring2Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring2Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring2Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring2Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring3Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring3Fluence_deuteron/Component= "IonChamber2/Ring3"
+s:Sc/IonChamber2Ring3Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring3Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring3Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring3Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring3Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring3Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring4Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring4Fluence_deuteron/Component= "IonChamber2/Ring4"
+s:Sc/IonChamber2Ring4Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring4Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring4Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring4Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring4Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring4Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring5Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring5Fluence_deuteron/Component= "IonChamber2/Ring5"
+s:Sc/IonChamber2Ring5Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring5Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring5Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring5Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring5Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring5Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring6Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring6Fluence_deuteron/Component= "IonChamber2/Ring6"
+s:Sc/IonChamber2Ring6Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring6Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring6Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring6Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring6Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring6Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Ring7Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Ring7Fluence_deuteron/Component= "IonChamber2/Ring7"
+s:Sc/IonChamber2Ring7Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Ring7Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Ring7Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Ring7Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Ring7Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Ring7Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Layer2Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Layer2Fluence_deuteron/Component= "IonChamber2/Layer2"
+s:Sc/IonChamber2Layer2Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Layer2Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Layer2Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Layer2Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Layer2Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Layer2Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/IonChamber2Layer3Fluence_deuteron/Quantity = "Fluence"
+s:Sc/IonChamber2Layer3Fluence_deuteron/Component= "IonChamber2/Layer3"
+s:Sc/IonChamber2Layer3Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/IonChamber2Layer3Fluence_deuteron/OutputType = "CSV"
+sv:Sc/IonChamber2Layer3Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/IonChamber2Layer3Fluence_deuteron/Ebins = 161
+d:Sc/IonChamber2Layer3Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/IonChamber2Layer3Fluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/PatientShieldFluence_deuteron/Quantity = "Fluence"
+s:Sc/PatientShieldFluence_deuteron/Component= "PatientShield"
+s:Sc/PatientShieldFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/PatientShieldFluence_deuteron/OutputType = "CSV"
+sv:Sc/PatientShieldFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/PatientShieldFluence_deuteron/Ebins = 161
+d:Sc/PatientShieldFluence_deuteron/EBinMin =  10000 eV
+d:Sc/PatientShieldFluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/PatientAssemblyFluence_deuteron/Quantity = "Fluence"
+s:Sc/PatientAssemblyFluence_deuteron/Component= "PatientAssembly"
+s:Sc/PatientAssemblyFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/PatientAssemblyFluence_deuteron/OutputType = "CSV"
+sv:Sc/PatientAssemblyFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/PatientAssemblyFluence_deuteron/Ebins = 161
+d:Sc/PatientAssemblyFluence_deuteron/EBinMin =  10000 eV
+d:Sc/PatientAssemblyFluence_deuteron/EBinMax = 1000000000 eV
+b:Sc/PatientAssemblyFluence_deuteron/PropagateToChildren = "True"
+
+s:Sc/Wirechamberwindow1Fluence_deuteron/Quantity = "Fluence"
+s:Sc/Wirechamberwindow1Fluence_deuteron/Component= "WireChamber/Window1"
+s:Sc/Wirechamberwindow1Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/Wirechamberwindow1Fluence_deuteron/OutputType = "CSV"
+sv:Sc/Wirechamberwindow1Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/Wirechamberwindow1Fluence_deuteron/Ebins = 161
+d:Sc/Wirechamberwindow1Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/Wirechamberwindow1Fluence_deuteron/EBinMax = 1000000000 eV
+b:Sc/Wirechamberwindow1Fluence_deuteron/PropagateToChildren = "True"
+
+s:Sc/Wirechamberwindow2Fluence_deuteron/Quantity = "Fluence"
+s:Sc/Wirechamberwindow2Fluence_deuteron/Component= "WireChamber/Window2"
+s:Sc/Wirechamberwindow2Fluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/Wirechamberwindow2Fluence_deuteron/OutputType = "CSV"
+sv:Sc/Wirechamberwindow2Fluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/Wirechamberwindow2Fluence_deuteron/Ebins = 161
+d:Sc/Wirechamberwindow2Fluence_deuteron/EBinMin =  10000 eV
+d:Sc/Wirechamberwindow2Fluence_deuteron/EBinMax = 1000000000 eV
+b:Sc/Wirechamberwindow2Fluence_deuteron/PropagateToChildren = "True"
+
+s:Sc/WirechamberMWCFluence_deuteron/Quantity = "Fluence"
+s:Sc/WirechamberMWCFluence_deuteron/Component= "MWC"
+s:Sc/WirechamberMWCFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/WirechamberMWCFluence_deuteron/OutputType = "CSV"
+sv:Sc/WirechamberMWCFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/WirechamberMWCFluence_deuteron/Ebins = 161
+d:Sc/WirechamberMWCFluence_deuteron/EBinMin =  10000 eV
+d:Sc/WirechamberMWCFluence_deuteron/EBinMax = 1000000000 eV
+b:Sc/WirechamberMWCFluence_deuteron/PropagateToChildren = "True"
+
+s:Sc/WCcontainerFluence_deuteron/Quantity = "Fluence"
+s:Sc/WCcontainerFluence_deuteron/Component= "WC_Container"
+s:Sc/WCcontainerFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/WCcontainerFluence_deuteron/OutputType = "CSV"
+sv:Sc/WCcontainerFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/WCcontainerFluence_deuteron/Ebins = 161
+d:Sc/WCcontainerFluence_deuteron/EBinMin =  10000 eV
+d:Sc/WCcontainerFluence_deuteron/EBinMax = 1000000000 eV
+
+s:Sc/WC_WaterFluence_deuteron/Quantity = "Fluence"
+s:Sc/WC_WaterFluence_deuteron/Component= "WC_Water"
+s:Sc/WC_WaterFluence_deuteron/IfOutputFileAlreadyExists = "Overwrite" # "Exit", "Overwrite" or "Increment"
+s:Sc/WC_WaterFluence_deuteron/OutputType = "CSV"
+sv:Sc/WC_WaterFluence_deuteron/OnlyIncludeParticlesNamed = 1 "deuteron"
+i:Sc/WC_WaterFluence_deuteron/Ebins = 161
+d:Sc/WC_WaterFluence_deuteron/EBinMin =  10000 eV
+d:Sc/WC_WaterFluence_deuteron/EBinMax = 1000000000 eV
