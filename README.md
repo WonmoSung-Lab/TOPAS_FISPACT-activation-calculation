@@ -1,4 +1,4 @@
-# TOPAS_FISPACT activation calculation
+# TOPAS-FISPACT-Activation-Simulation
 
 💡 Project Overview: OPT Beamline Proton Therapy Simulation (UCSF), TOPAS example file
 This repository contains Monte Carlo simulation code using TOPAS v3.7.0 for modeling the OPT (Ocular Proton Therapy) beamline at the University of California, San Francisco (UCSF). The simulation is designed to study dose delivery and particle spectra during ocular melanoma treatment using a monoenergetic proton beam.
