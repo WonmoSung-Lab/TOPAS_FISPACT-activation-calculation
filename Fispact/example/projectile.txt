@@ -1,0 +1,7 @@
+PROJECTILE 1 : Neutron ( 709, 1102, 586 group structures)
+PROJECTILE 2 : Deuteron (162 group structure)
+PROJECTILE 3 : Proton (162 group structure)
+PROJECTILE 4 : Alpha (162 group structure)
+PROJECTILE 5 : Gamma (162 group structure)
+PROJECTILE 6 : Triton (162 group structure)
+PROJECTILE 7 : Helion (162 group structure)
